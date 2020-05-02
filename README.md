@@ -35,4 +35,4 @@ docker run -d --name <NAME> -p 8000:8000 thiagobrown/laravel-app
 
 ## License
 
-MIT License - veja em [LICENSE.md](LICENSE.md) para mais detalhes.
+MIT License - veja em [LICENSE](LICENSE) para mais detalhes.
