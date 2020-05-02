@@ -11,7 +11,6 @@ Ambiente Laravel com:
 * PHP-FPM 7.4.5
 * Redis 6.0.1
 
----
 ## Início
 
 Instruções para usar o container 
@@ -30,12 +29,10 @@ Para executar este container, você precisará do Docker instalado.
 docker run -d --name <NAME> -p 8000:8000 thiagobrown/laravel-app
 ```
 
----
 ## Author
 
 **Thiago** - *Sofware Developer* - https://github.com/thiagobrown
 
----
 ## License
 
 MIT License - veja em [LICENSE.md](LICENSE.md) para mais detalhes.
