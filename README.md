@@ -29,6 +29,17 @@ Para executar este container, você precisará do Docker instalado.
 docker run -d --name <NAME> -p 8000:8000 thiagobrown/laravel-app
 ```
 
+#### Variáveis de Ambiente
+
+* `DB_HOST` - Host do banco de dados MySQL para framework Laravel
+* `DB_PORT` - Port do banco de dados MySQL para framework Laravel 
+* `DB_DATABASE` - Port do banco de dados MySQL para framework Laravel 
+* `DB_USERNAME` - Port do banco de dados MySQL para framework Laravel 
+* `DB_PASSWORD` - Port do banco de dados MySQL para framework Laravel 
+* `REDIS_HOST` - Host do banco NoSQL Redis para framework Laravel 
+* `APP_HOST` - Host do PHP-FPM usando Nginx
+* `APP_PORT` - Port do PHP-FPM usando Nginx
+
 ## Author
 
 **Thiago** - *Sofware Developer* - https://github.com/thiagobrown
